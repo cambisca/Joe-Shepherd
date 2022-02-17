@@ -1,0 +1,46 @@
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - (2.5vw + 2.5vh));
+    width: 100%;
+
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        .headshot__container {
+            padding: 0;
+            
+            display: flex;
+            justify-content: center;
+            background-color: rgba(139, 93, 0, 0.553);
+        }
+
+        .about__headshot {
+            height: 100%;
+            width: 60%;
+            object-fit: cover;
+            
+        }
+
+
+        .about__paragraph-container {
+            background-color: rgba(0, 0, 139, 0.553);
+            
+            .about__paragraph {
+                padding: 2rem;
+                color: rgb(212, 210, 210);
+                margin-left: 3rem;
+            }
+        }
+
+    }
+
+    
+}
